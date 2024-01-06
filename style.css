@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 1.5px solid transparent;
+    /* border-radius: 4px; */
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    border-radius: 4px;
+}
+
+/*box2*/
+.add-icon {
+    display: flex;
+}
+
+.add-first {
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 0.85rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/*box3*/
+.nav-search {
+    display: flex;
+    /* background-color: pink; */
+    width: 520px;
+    height: 35px;
+}
+
+/* .nav-search:hover {
+    border: 2px solid orange;
+} */
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/*box4*/
+span {
+    font-size: 0.75rem;
+}
+
+.box4 {
+    font-weight: 600;
+}
+
+/*box6*/
+
+.nav-cart i {
+    font-size: 28px;
+}
+
+.nav-cart {
+    /* font-size: 0.75rem; */
+    font-weight: 600;
+}
+
+/*Panel*/
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    color:  white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-icon {
+    width: 58px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 15px;
+}
+
+.panel-options {
+    width: 100%;
+}
+
+.panel-options p {
+    display: inline;
+    padding: 15px;
+    font-size: 14px;
+    
+}
+
+/*Top Body*/
+ .top-body {
+    background-image: url("top_body_image2.jpg");
+    background-size: cover;
+    height: 300px;
+ }
+
+/*buy section*/
+
+.buy-section {
+    background-color: #eeeee4;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 23%;
+    height: 350px;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-image {
+    height: 280px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+/*footer*/
+
+footer {
+    margin-top: 15px;
+}
+
+.footer1 {
+    color: white;
+    height: 45px;
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.footer2 {
+    background-color: #222f3d;
+    color: white;
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul {
+    margin-top: 40px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+.footer3 {
+    height: 70px;
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.footer4 {
+    background-color: #0f1111;
+    color: white;
+    height: 75px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.p1 {
+    padding-top: 20px;
+}
+
+.p2 {
+    padding-top: 5px;
+}
